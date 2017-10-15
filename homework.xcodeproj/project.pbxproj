@@ -13,6 +13,9 @@
 		CE02AA881F92E36D00F23F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE02AA871F92E36D00F23F39 /* Assets.xcassets */; };
 		CE02AA8B1F92E36D00F23F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE02AA891F92E36D00F23F39 /* LaunchScreen.storyboard */; };
 		CE02AA931F92E48A00F23F39 /* if_bulldog_45354.png in Resources */ = {isa = PBXBuildFile; fileRef = CE02AA921F92E48A00F23F39 /* if_bulldog_45354.png */; };
+		CE02AA951F93017200F23F39 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CE02AA941F93017200F23F39 /* bg.png */; };
+		CE02AA971F9301F900F23F39 /* cocoBackground01.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CE02AA961F9301F900F23F39 /* cocoBackground01.JPG */; };
+		CE02AA991F93025E00F23F39 /* cocoBackground03.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CE02AA981F93025E00F23F39 /* cocoBackground03.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		CE02AA8A1F92E36D00F23F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE02AA8C1F92E36D00F23F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE02AA921F92E48A00F23F39 /* if_bulldog_45354.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = if_bulldog_45354.png; sourceTree = "<group>"; };
+		CE02AA941F93017200F23F39 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = ../bg.png; sourceTree = "<group>"; };
+		CE02AA961F9301F900F23F39 /* cocoBackground01.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cocoBackground01.JPG; path = ../cocoBackground01.JPG; sourceTree = "<group>"; };
+		CE02AA981F93025E00F23F39 /* cocoBackground03.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cocoBackground03.JPG; path = ../cocoBackground03.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				CE02AA7F1F92E36D00F23F39 /* homework */,
-				CE02AA7E1F92E36D00F23F39 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +56,7 @@
 				CE02AA7D1F92E36D00F23F39 /* homework.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		CE02AA7F1F92E36D00F23F39 /* homework */ = {
@@ -59,10 +65,14 @@
 				CE02AA801F92E36D00F23F39 /* AppDelegate.swift */,
 				CE02AA821F92E36D00F23F39 /* ViewController.swift */,
 				CE02AA841F92E36D00F23F39 /* Main.storyboard */,
+				CE02AA941F93017200F23F39 /* bg.png */,
 				CE02AA921F92E48A00F23F39 /* if_bulldog_45354.png */,
+				CE02AA981F93025E00F23F39 /* cocoBackground03.JPG */,
 				CE02AA871F92E36D00F23F39 /* Assets.xcassets */,
+				CE02AA961F9301F900F23F39 /* cocoBackground01.JPG */,
 				CE02AA891F92E36D00F23F39 /* LaunchScreen.storyboard */,
 				CE02AA8C1F92E36D00F23F39 /* Info.plist */,
+				CE02AA7E1F92E36D00F23F39 /* Products */,
 			);
 			path = homework;
 			sourceTree = "<group>";
@@ -127,9 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE02AA951F93017200F23F39 /* bg.png in Resources */,
+				CE02AA991F93025E00F23F39 /* cocoBackground03.JPG in Resources */,
 				CE02AA8B1F92E36D00F23F39 /* LaunchScreen.storyboard in Resources */,
 				CE02AA881F92E36D00F23F39 /* Assets.xcassets in Resources */,
 				CE02AA931F92E48A00F23F39 /* if_bulldog_45354.png in Resources */,
+				CE02AA971F9301F900F23F39 /* cocoBackground01.JPG in Resources */,
 				CE02AA861F92E36D00F23F39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
